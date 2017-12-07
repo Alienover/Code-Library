@@ -1,10 +1,16 @@
+/**
+  * @desc 定义自定义的事件
+  * @param {String} type 事件类型
+  * @param {function} handler 事件回调函数
+  * @return {Object} 事件与事件回调函数的对象
+*/
 function EventTarget() {
   this.handlers = {};
 }
 
 EventTarget.prototype = {
   constructor : EventTarget,
-  //添加自定义事件,type(事件类型),handler(事件回调函数)
+  //添加自定义事件
   addHandler : function (type, handler) {
     if (typeof this.handlers[type] == "undefined") {
       this.handlers[type] = [];

@@ -15,6 +15,7 @@
     }
 
     var target = new EventTarget();
+    console.log(target);
 
     target.addHandler("message",handleMessage);
     target.fire({type:"message",message:"Hello World!"});
