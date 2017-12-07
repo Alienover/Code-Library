@@ -8,3 +8,7 @@
 * [hasClass.js](./js/Class/hasClass) 检查是否存在指定的class
 * [addClass.js](./js/Class/addClass) 给指定的元素添加指定的class
 * [removeClass.js](./js/Class/removeClass) 给指定的元素移除指定的class
+
+### Random
+* [RandomColor](./js/Random/RandomColor) 随机生成颜色
+* [RandomNumber](./js/Random/RandomNumber) 随机生成数字
