@@ -18,3 +18,10 @@
 * [isIDCard](./js/RegExp/isIDCard) 判断是否为IDCard
 * [isPhoneNumber](./js/RegExp/isPhoneNumber) 判断是否为手机号码
 * [isURL](./js/RegExp/isURL) 判断是否为URL地址
+
+### String
+* [digitUppercase](./js/String/digitUppercase) 现金金额转大写
+
+### Device
+* [getExplore](./js/Device/getExplore) 获取浏览器型号与版本
+* [getOS](./js/Device/getOS) 获取操作系统类型
