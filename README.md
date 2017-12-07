@@ -12,3 +12,9 @@
 ### Random
 * [RandomColor](./js/Random/RandomColor) 随机生成颜色
 * [RandomNumber](./js/Random/RandomNumber) 随机生成数字
+
+### RegExp
+* [isEmail](./js/RegExp/isEmail) 判断是否为Email
+* [isIDCard](./js/RegExp/isIDCard) 判断是否为IDCard
+* [isPhoneNumber](./js/RegExp/isPhoneNumber) 判断是否为手机号码
+* [isURL](./js/RegExp/isURL) 判断是否为URL地址
