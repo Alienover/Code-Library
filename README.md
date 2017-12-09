@@ -32,5 +32,5 @@
 * [getOS.js](./js/Device/getOS/getOS.js) 获取操作系统类型
 
 ### Time
-* [formatPassTime](./js/Time/formatPassTime/formatPassTime.js) 格式化距今已过去的时间
-* [formatRemainTime](./js/Time/formatRemainTime/formatRemainTime.js) 格式化距今还剩余的时间
+* [formatPassTime.js](./js/Time/formatPassTime/formatPassTime.js) 格式化距今已过去的时间
+* [formatRemainTime.js](./js/Time/formatRemainTime/formatRemainTime.js) 格式化距今还剩余的时间

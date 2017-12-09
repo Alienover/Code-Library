@@ -8,10 +8,10 @@ function getOS() {
   var vendor = 'navigator' in window && 'vendor' in navigator && navigator.vendor.toLowerCase() || '';
   var appVersion = 'navigator' in window && 'appVersion' in navigator && navigator.appVersion.toLowerCase() || '';
 
+  if (/iphone/i.test(userAgent) || /ipad/i.test(userAgent) || /ipod/i.test(userAgent)) return 'ios';
+  if (/win/i.test(appVersion) && /phone/i.test(userAgent)) return 'WindowsPhone';
+  if (/android/i.test(userAgent)) return 'Android';
   if (/mac/i.test(appVersion)) return 'MaxOSX';
   if (/win/i.test(appVersion)) return 'Windows';
   if (/linux/i.test(appVersion)) return 'Linux';
-  if (/iphone/i.test(userAgent) || /ipad/i.test(userAgent) || /ipod/i.test(userAgent)) return 'ios';
-  if (/android/i.test(userAgent)) return 'Android';
-  if (/win/i.test(appVersion) && /phone/i.test(userAgent)) return 'WindowsPhone';
 }
