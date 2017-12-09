@@ -34,3 +34,7 @@
 ### Time
 * [formatPassTime.js](./js/Time/formatPassTime/formatPassTime.js) 格式化距今已过去的时间
 * [formatRemainTime.js](./js/Time/formatRemainTime/formatRemainTime.js) 格式化距今还剩余的时间
+
+### function
+* [throttle.js](./js/Function/Throttle/throttle.js) 函数节流
+* [debounce](./js/Function/Debounce/debounce.js) 函数防抖
